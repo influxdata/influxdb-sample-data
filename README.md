@@ -1,4 +1,4 @@
-# Influxdb Sample Datasets
+# InfluxDB Sample Datasets
 
 This repository contains sample time series data used to test InfluxDB.
 
@@ -8,4 +8,4 @@ Running benchmarks with synthetic tests often does not reflect real-world use. T
 
 ## Data format
 
-All datasets should be a file containing newline separated, InfluxDB formatted JSON blobs. Each line should be able to be directly written to InfluxDB, e.g. via a `curl -XPOST '...'`.
+This is the original JSON sample data imported and a backup/snapshot created. Instructions here: https://influxdb.com/docs/v0.9/administration/backup_and_restore.html

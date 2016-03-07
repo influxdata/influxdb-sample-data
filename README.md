@@ -8,4 +8,4 @@ Running benchmarks with synthetic tests often does not reflect real-world use. T
 
 ## Data format
 
-All datasets should be a file containing newline separated, InfluxDB formatted JSON blobs. Each line should be able to be directly written to InfluxDB, e.g. via a `curl -XPOST '...'`.
+All datasets should be a file containing newline separated, InfluxDB formatted JSON blobs. Each line should be able to be directly written to InfluxDB, e.g. via a `curl -XPOST '...'`. See the [InfluxDB docs](https://docs.influxdata.com/influxdb/v0.10/guides/writing_data/) for more.
